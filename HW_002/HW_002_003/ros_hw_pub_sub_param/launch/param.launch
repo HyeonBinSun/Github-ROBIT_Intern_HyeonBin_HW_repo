@@ -1,0 +1,14 @@
+<launch>
+
+<node pkg="ros_hw_pub_sub_param" type="ros_hw_3rd_publisher" name="publisher" output="screen"/>
+<arg name= "dataA" default = "1"/>
+<param name="DATA1" value="$(arg dataA)"/>
+
+<arg name= "dataB" default = "2"/>
+<param name="DATA2" value="$(arg dataB)"/>
+
+<arg name= "dataM" default = "ABC"/>
+<param name="MESSAGE" value="$(arg dataM)"/>
+<node pkg="ros_hw_pub_sub_param" type="ros_hw_3rd_subscriber" name="subscriber" output="screen"/>
+
+</launch>
