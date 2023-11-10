@@ -1,0 +1,2 @@
+image_viewer_qt:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/hyeonbin/HW_repo/HW_003/HW_003_001/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hyeonbin/HW_repo/HW_003/HW_003_001/catkin_ws/install -G Unix Makefiles

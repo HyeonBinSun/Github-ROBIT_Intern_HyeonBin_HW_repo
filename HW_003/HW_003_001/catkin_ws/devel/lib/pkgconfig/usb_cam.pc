@@ -1,0 +1,8 @@
+prefix=/home/hyeonbin/HW_repo/HW_003/HW_003_001/catkin_ws/devel
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.7
+Cflags: -I/home/hyeonbin/HW_repo/HW_003/HW_003_001/catkin_ws/src/usb_cam/include
+Libs: -L${prefix}/lib -lusb_cam
+Requires: 

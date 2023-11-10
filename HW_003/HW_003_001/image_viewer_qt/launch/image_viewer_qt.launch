@@ -1,3 +1,0 @@
-<launch>
- <include file="$(find usb_cam)/launch/test_img_view.launch"/>
-</launch>
